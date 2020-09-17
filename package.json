@@ -1,0 +1,25 @@
+{
+    "name": "beautifril",
+    "displayName": "beautifril",
+    "description": "fril support for VS code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "frl",
+            "aliases": ["fril", "frl"],
+            "extensions": [".frl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "frl",
+            "scopeName": "source.fril",
+            "path": "./syntaxes/frl.tmLanguage.json"
+        }]
+    }
+}
