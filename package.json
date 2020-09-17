@@ -2,6 +2,11 @@
     "name": "beautifril",
     "displayName": "beautifril",
     "description": "fril support for VS code",
+    "publisher": "cssko",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cssko/beautifril.git"
+    },
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.49.0"
